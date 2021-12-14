@@ -9,11 +9,11 @@ Each sample consists of the target feature, the quality of the wine, rated from 
   <li>Volatile Acidity</li>
   <li>Citric Acid</li>
   <li>Residual Sugar</li>
-  <li/>Chlorides<li>
+  <li/>Chlorides</li>
   <li>Free Sulfur Dioxide</li>
   <li>Total Sulfur Dioxide</li>
   <li>Density</li>
-    <li>pH</li>
+  <li>pH</li>
   <li>Sulphates</li>
   <li>Alcohol</li>
 </ul>
