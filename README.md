@@ -23,3 +23,10 @@ Each sample consists of the target feature, the quality of the wine, rated from 
 ## Support Vector Machine
 ## Random Forest Classifier
 
+There are three main hyperparameters for the random forest classifier:
+<ul>
+  <li>Fixed Acidity</li>
+  <li>max depth. By the limiting the depth of individual decision trees, 'overfitting' on training data can be avoided. </li>
+  <li>criterion. The criterion is the method by which the classifier decides which feature to make the decision feature for the root node of a tree. The two criterions available are entropy and gini.</li>
+</ul>
+
