@@ -32,7 +32,19 @@ The UCI website states that the task of predicting the quality of the wine sampl
 Support Vector Machine (SVM) is a classification algorithm that aims to construct a hyperplane to separate datapoints by their label. Although it is similar to perceptron classification, SVM is significantly stronger than perceptron classifiers. Since SVM maximizes the margin, or the distance between the hyperplane and the nearest points on either side, it is more robust when it comes to unseen testing data. Furthermore, SVM can address problems that are non-linearly seperable points by taking advantage of feature-space transformations. SVM comes in two flavors, hard margin or soft margin, to tackle seperable and non-seperable data, respectively. 
 
 ### Implementation of Algorithm
-
+For our project, we used the scikit-learn implementation for SVC (C-Support Vector Classification). Here, there are three main hyperparameters: 
+<ul>
+  <li>C: Regularization parameter.
+  They use an L2 penalty parameter, and C is inversely related to the strength of regularization. As such, C can be any positive real number. We specifically looked at a window of values between 0.05 and 1.5. 
+  </li>
+  <li>Kernel: feature-space transformations.
+  There are several different candidate feature-space transformations in the universe of kernel functions. Specifically for the scikit-learn implementation, the main ones are linear, polynomial, RBF (Radial Basis Function), and sigmoid. Polynomial kernels require a degree for the transformation. The linear function is a specific instance of polynomial kernel (degree = 1).
+  </li>
+  <li>
+  Degree.
+  The degree is only used for a polynomial kernel and represents the polynomial degree transformation applied.
+  </li>
+</ul>
 
 
 ## Random Forest Classifier
