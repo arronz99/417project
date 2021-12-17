@@ -22,6 +22,14 @@ Each sample consists of the target feature, the quality of the wine, rated from 
   <li>Alcohol</li>
 </ul>
 
+## Data Cleaning
+Before running any classification on the dataset, the data was checked and cleaned in two manners.
+### Checking for duplicates
+Duplicates are checked for before running the models. In total, ___ duplicates were found, which are deleted. There are now ___ datapoints that we run on.
+
+### NaN values
+By using the code shown in the appendix, it can be shown that there are no empty values for any of the datapoints. We can now proceed to running our classification methods on the dataset.
+
 The UCI website states that the task of predicting the quality of the wine samples can be treated as either a regression or classification task. 
 
 # Methods
