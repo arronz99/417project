@@ -13,7 +13,7 @@ Each sample consists of the target feature, the quality of the wine, rated from 
   <li>Volatile Acidity</li>
   <li>Citric Acid</li>
   <li>Residual Sugar</li>
-  <li/>Chlorides</li>
+  <li>Chlorides</li>
   <li>Free Sulfur Dioxide</li>
   <li>Total Sulfur Dioxide</li>
   <li>Density</li>
@@ -25,7 +25,16 @@ Each sample consists of the target feature, the quality of the wine, rated from 
 The UCI website states that the task of predicting the quality of the wine samples can be treated as either a regression or classification task. 
 
 # Methods
+
 ## Support Vector Machine
+
+### Overview of Algorithm
+Support Vector Machine (SVM) is a classification algorithm that aims to construct a hyperplane to separate datapoints by their label. Although it is similar to perceptron classification, SVM is significantly stronger than perceptron classifiers. Since SVM maximizes the margin, or the distance between the hyperplane and the nearest points on either side, it is more robust when it comes to unseen testing data. Furthermore, SVM can address problems that are non-linearly seperable points by taking advantage of feature-space transformations. SVM comes in two flavors, hard margin or soft margin, to tackle seperable and non-seperable data, respectively. 
+
+### Implementation of Algorithm
+
+
+
 ## Random Forest Classifier
 
 There are three main hyperparameters for the random forest classifier:
