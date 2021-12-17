@@ -38,7 +38,7 @@ For our project, we used the scikit-learn implementation for SVC (C-Support Vect
   They use an L2 penalty parameter, and C is inversely related to the strength of regularization. As such, C can be any positive real number. We specifically looked at a window of values between 0.05 and 1.5. 
   </li>
   <li>Kernel: feature-space transformations.
-  There are several different candidate feature-space transformations in the universe of kernel functions. Specifically for the scikit-learn implementation, the main ones are linear, polynomial, RBF (Radial Basis Function), and sigmoid. Polynomial kernels require a degree for the transformation. The linear function is a specific instance of polynomial kernel (degree = 1).
+  There are several different candidate feature-space transformations in the universe of kernel functions. Specifically for the scikit-learn implementation, the main ones are linear, polynomial, RBF (Radial Basis Function), and sigmoid. Polynomial kernels require a degree for the transformation.
   </li>
   <li>
   Degree.
